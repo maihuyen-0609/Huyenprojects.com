@@ -2,6 +2,7 @@ package katalontoselenium.com.helpers;
 
 
 import io.qameta.allure.Step;
+import katalontoselenium.com.driver.DriverManager;
 import katalontoselenium.com.utils.LanguageUtils;
 import katalontoselenium.com.utils.Log;
 
@@ -106,5 +107,6 @@ public class PropertiesHelpers {
             System.out.println(e.getMessage());
         }
     }
+
 
 }

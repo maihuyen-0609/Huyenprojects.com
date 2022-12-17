@@ -481,6 +481,15 @@ public class WebUI {
         //Trả về giá trị đã setup thuộc đối tượng ChromeOptions
         return options;
     }
+    public static void backwindow(){
+        DriverManager.getDriver().navigate().back();
+    }
+    public static void forwardwindow(){
+        DriverManager.getDriver().navigate().forward();
+    }
+    public static void refreshdwindow(){
+        DriverManager.getDriver().navigate().refresh();
+    }
 
     /**
      * Upload file kiểu click hiện form chọn file local trong máy tính của bạn
