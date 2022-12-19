@@ -1,4 +1,7 @@
 package katalontoselenium.com.projects.katalon.com.testcases;
 
-public class TestSignin {
+import katalontoselenium.com.common.BaseTest;
+
+public class TestSignin extends BaseTest {
+
 }
